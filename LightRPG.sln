@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightRPG", "LightRPG\LightRPG.csproj", "{F1566204-0C81-474F-BCA4-6FBE5A65B8D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{2FF8586B-1645-4EA5-936B-D023D8AEDCB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1566204-0C81-474F-BCA4-6FBE5A65B8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1566204-0C81-474F-BCA4-6FBE5A65B8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1566204-0C81-474F-BCA4-6FBE5A65B8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1566204-0C81-474F-BCA4-6FBE5A65B8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF8586B-1645-4EA5-936B-D023D8AEDCB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF8586B-1645-4EA5-936B-D023D8AEDCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF8586B-1645-4EA5-936B-D023D8AEDCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF8586B-1645-4EA5-936B-D023D8AEDCB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D8AA7E8-E10D-4E39-AE21-1CA6532E91EA}
+	EndGlobalSection
+EndGlobal

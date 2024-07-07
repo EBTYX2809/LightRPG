@@ -13,9 +13,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using Engine; // Подключаем двигло игры
+using Engine; 
 
-namespace LightRPG // Добавить стоимость предметов и магазин
+namespace LightRPG
 {
     public partial class Game : Form
     {
@@ -974,7 +974,7 @@ namespace LightRPG // Добавить стоимость предметов и 
             Healing();
             MonsterAttack();
         }
-
+       
         ////////////////////////////////////////////////////////////////////////////////////////////
         // Color generator for background after meth(written entirely by chat gpt)
         private Panel panel;

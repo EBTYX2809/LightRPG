@@ -268,6 +268,7 @@ namespace LightRPG
         // Here is dialogue functions
         bool FirstClick = true; // Need to start dialogue from Say button
         // Filling a dictionary to store player answers with further options and filling a dictionary to store characters answers
+        // For good measure, dialogueOptions and Responses should be created in the Character class, but I realized this too late, and I was lazy to rewrite it.
         private Dictionary<string, List<string>> dialogueOptionsWithGuider = new Dictionary<string, List<string>>
             {
             { "Hello", new List<string> { "Hi. What is this place?", "Good Bye." } },
